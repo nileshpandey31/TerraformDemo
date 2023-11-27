@@ -1,0 +1,12 @@
+steps
+1)Download terraform and extract it.
+2)copy the extracted folder into required folder.
+3)Add terraform path to the system variable
+4)verify installation uing command "terraform -version"
+5)Before working with aws best practice is to create system variable for access token and secret key instead of using directlt in code.
+6)Uncomment the required portion and try running it.
+
+
+terraform init // will install all the plugins and file required by provider
+terraform plan  // will show the action code is going to perform
+terraform action // apply the action
